@@ -1,0 +1,44 @@
+#gameCanvas{
+    background-image: url("/img/pantalla.png");
+    background-repeat: no-repeat, repeat;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: block;
+    border: 1px solid rgb(52, 239, 52);
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-image: url("/img/fondo.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.titlegame{
+    padding: 8px;
+    letter-spacing: 2px;
+    border-radius: 12px;
+    background-color: #841654B6;
+    color: rgb(128, 255, 0);
+    font-size: 22px;
+    font-family:'DotGothic16', sans-serif;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 0, 1);
+}
+
+.containbuton{
+    display: flex;
+    flex-direction: row;
+}
